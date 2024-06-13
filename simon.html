@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Simon Game</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="simon-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="body">
+    <h1 class="header">Simon Game</h1>
+    <h2>Press ANY button to start.</h2>
+    <h3>Your Highest Score: 00</h3>
+    <button id="btnStart">Start</button>
+    <p class="sequencia" id="seq"></p>
+    <div class="main-section">
+      <section class="game">
+        <div class="middle-circle">
+          <p class="text-level" id="level">Level 1</p>
+        </div>
+        <div class="btn btn-red" id="btn0" data-value="0"></div>
+        <div class="btn btn-yellow" id="btn1" data-value="1"></div>
+        <div class="btn btn-green" id="btn2" data-value="2"></div>
+        <div class="btn btn-blue" id="btn3" data-value="3"></div>
+      </section>
+    </div>
+
+    <footer>Coded By Cadu</footer>
+    <script src="simon-game.js" async defer></script>
+  </body>
+</html>
